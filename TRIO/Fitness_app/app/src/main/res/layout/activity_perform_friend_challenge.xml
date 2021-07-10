@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainMenuActivity">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Friend Challenge:"
+        android:textSize="30dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_friend_chall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Challenge"
+        android:textSize="30dp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="280dp"
+        android:layout_height="267dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_exercise_friend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/bttn_finish_chall_friend"
+        android:layout_width="292dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_design"
+        android:text="Finish"
+        android:textColor="#FFFFFF" />
+
+
+
+
+</LinearLayout>

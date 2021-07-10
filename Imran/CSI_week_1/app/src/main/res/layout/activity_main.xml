@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="166dp"
+        android:layout_height="319dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="63dp"
+        android:baselineAligned="false"
+        app:srcCompat="@drawable/badguy" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#195E02">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="60dp"
+            android:background="@color/colorDarkGreen"
+            android:gravity="center">
+
+            <TableRow>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorDarkGreen"
+                    android:gravity="center"
+                    android:paddingLeft="50dp"
+                    android:text="Name"
+                    android:textColor="#ffff" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorDarkGreen"
+                    android:gravity="center"
+                    android:paddingLeft="50dp"
+                    android:text="Bear Grills"
+                    android:textColor="#ffff" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorDarkGreen"
+                    android:gravity="center"
+                    android:paddingLeft="50dp"
+                    android:text="Gender"
+                    android:textColor="#ffff" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorDarkGreen"
+                    android:gravity="center"
+                    android:paddingLeft="50dp"
+                    android:text="Male"
+                    android:textColor="#ffff" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorDarkGreen"
+                    android:gravity="center"
+                    android:paddingLeft="50dp"
+                    android:text="Age"
+                    android:textColor="#ffff" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorDarkGreen"
+                    android:gravity="center"
+                    android:paddingLeft="50dp"
+                    android:text="35"
+                    android:textColor="#ffff" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorDarkGreen"
+                    android:gravity="center"
+                    android:paddingLeft="50dp"
+                    android:text="Bounty"
+                    android:textColor="#ffff" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorDarkGreen"
+                    android:gravity="center"
+                    android:paddingLeft="50dp"
+                    android:text="10000$"
+                    android:textColor="#ffff" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</LinearLayout>
